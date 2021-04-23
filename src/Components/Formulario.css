@@ -1,0 +1,62 @@
+/*colores fondo: #9c40a5, #8b5eb9, #6287d5*/
+/*colores formulario: #a95fb6, #895eb8, #7c95d8*/
+/*input: #feffff, textoInput: #9c9c9c, textoCheck: #4ed3fc, boton: #02e2fb -- #01f2fd*/
+
+::placeholder{
+    color: #9c9c9c;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+h1{
+    color: #feffff;
+    margin-bottom: 3rem;
+}
+form{
+    width: 40rem;
+    height: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: crimson;
+    background-color: #895eb8;
+}
+input{
+    border-radius: 15px;
+    background-color: #feffff;
+    border: none;
+    padding: 1rem;
+}
+.campoNombre{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.campoNombre input{
+    width: 45%;
+}
+.campoInput{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.campoInput input{
+    width: 100%;
+}
+.campoRadio{
+    margin-bottom: 1rem;
+}
+button{
+    width: 17rem;
+    font-size: 1.5rem;
+    color: #feffff;
+    border-radius: 15px;
+    padding: .7rem 1rem;
+    background-color: #01f2fd;
+    border: 2px solid #02e2fb;
+}

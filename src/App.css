@@ -1,0 +1,8 @@
+html{
+	font-size: 62.5%; /**reset para rems -62.5% =10px de 16... esta cuenta es para hacer que un rem valga 10px**/
+	box-sizing: border-box;
+	background-color: #9c40a5;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
