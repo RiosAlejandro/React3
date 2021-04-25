@@ -1,8 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,600&display=swap');
+
 html{
 	font-size: 62.5%; /**reset para rems -62.5% =10px de 16... esta cuenta es para hacer que un rem valga 10px**/
 	box-sizing: border-box;
-	background-color: #9c40a5;
 }
 *, *:before, *:after{
 	box-sizing: inherit;
 }
+body{
+	font-family: 'Nunito', sans-serif;
+	height: 100vh;
+	background-image: linear-gradient(
+		321deg,
+		#9c40a5 0%,
+		#8b5eb9 46%,
+		#6287d5 100%
+	);
+	/*background-image: linear-gradient(
+		321deg,
+		#6287d5 0%,
+		#8b5eb9 46%,
+		#9c40a5 100%
+	);*/
+}
+

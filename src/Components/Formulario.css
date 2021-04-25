@@ -6,10 +6,18 @@
     color: #9c9c9c;
     font-weight: 500;
     font-size: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+}
+:hover::placeholder{
+    color: #01f2fd;
+}
+:focus::placeholder{
+    color: #feffff;
 }
 h1{
     color: #feffff;
     margin-bottom: 3rem;
+    font-size: 2.5rem;
 }
 form{
     width: 40rem;
@@ -21,16 +29,31 @@ form{
     flex-flow: column nowrap;
     align-items: center;
     padding: 1rem 2rem;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 20px;
-    background-color: crimson;
-    background-color: #895eb8;
+    background-image: linear-gradient(
+		321deg,
+		#a95fb6 0%,
+		#895eb8 46%,
+		#7c95d8 100%
+	);
+    box-shadow:0px 0px 6px -1px #000000;
+    -moz-box-shadow:0px 0px 6px -1px #000000;
+    -webkit-box-shadow:0px 0px 6px -1px #000000;
 }
 input{
     border-radius: 15px;
     background-color: #feffff;
     border: none;
     padding: 1rem;
+    outline: none;
+    box-shadow:0px 2px 6px -1px #000000;
+    -moz-box-shadow:0px 2px 6px -1px #000000;
+    -webkit-box-shadow:0px 2px 6px -1px #000000;
+}
+input:focus{
+    background-color: #01f2fd;
+    transition: .3s linear;
 }
 .campoNombre{
     margin-bottom: 2rem;
@@ -50,6 +73,24 @@ input{
 }
 .campoRadio{
     margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.campoRadio input{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+.campoRadio p{
+    font-size: 1.6rem;
+}
+.campoRadio span{
+    color: #4ed3fc;
+    font-weight: 600;
+}
+.campoRadio span:hover{
+    cursor: pointer;
 }
 button{
     width: 17rem;
@@ -59,4 +100,15 @@ button{
     padding: .7rem 1rem;
     background-color: #01f2fd;
     border: 2px solid #02e2fb;
+    box-shadow:0px 2px 6px -1px #000000;
+    -moz-box-shadow:0px 2px 6px -1px #000000;
+    -webkit-box-shadow:0px 2px 6px -1px #000000;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #02e2fb;
+    border: 2px solid #01f2fd;
+}
+button:focus{
+    color: #9c9c9c;
 }

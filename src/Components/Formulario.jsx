@@ -30,7 +30,8 @@ const Formulario = () => {
                     />
                 </div>
                 <div className="campoRadio">
-                    <span>Acá va el check</span>
+                    <input type="checkbox" />
+                    <p>I accept <span>Terms of Use</span></p>
                 </div>
                 <div className="campoBotton">
                     <button>REGISTER NOW</button>
